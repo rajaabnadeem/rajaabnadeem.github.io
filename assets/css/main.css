@@ -14,6 +14,11 @@
   border-radius: 50px;
 }
 
+.dashlist {
+  display: flex;
+  justify-content: space-around;
+}
+
 html,
 body,
 div,
