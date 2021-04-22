@@ -9,8 +9,9 @@
 
 .me-img {
   margin: 0 5px 5px 0;
-  height: 120px;
-  width: 120px;
+  height: 10%;
+  width: 10%;
+  border-radius: 20px;
 }
 
 html,
