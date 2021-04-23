@@ -11,12 +11,37 @@
   margin: 0 5px 5px 0;
   height: 30%;
   width: 30%;
-  border-radius: 50px;
+  border-radius: 100px;
+  margin-bottom: 1vh;
 }
 
 .dashlist {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dashlist li {
+  width: 15vw;
+}
+
+.live-git-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.live-git-container.top {
+  margin-bottom: -30px;
+}
+
+.live-github {
+  margin: 20px;
+}
+
+.live-github.link {
+  font-weight: bold;
+  color: rgb(109, 143, 227);
 }
 
 html,
