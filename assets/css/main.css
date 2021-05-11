@@ -445,7 +445,7 @@ hr {
 
 .me-img {
   margin-top: -3vh;
-  height: 170px;
+  height: 175px;
   border-radius: 500px;
 }
 
@@ -460,7 +460,12 @@ hr {
 
 .me-skills {
   font-size: 10pt;
-  margin-top: -4.5vh;
+  margin-top: -4vh;
+}
+
+.inner {
+  display: flex;
+  flex-direction: column;
 }
 
 .dash-para {
@@ -468,10 +473,8 @@ hr {
   width: 950px;
   padding: 12px 20px 12px 20px;
   border: 1px solid white;
-}
-
-.content {
-  height: 38.5vh;
+  height: 200px;
+  overflow: scroll;
 }
 
 .tele {
@@ -888,7 +891,6 @@ input[type="radio"] + label:before {
 
 .image.main {
   display: block;
-  margin: 2.5rem 0;
   width: 100%;
 }
 
@@ -1525,9 +1527,9 @@ body.is-preload #bg:before {
   -webkit-transition-delay: 0.25s;
   -ms-transition-delay: 0.25s;
   transition-delay: 0.25s;
-  padding: 3rem 2rem;
+  padding: 3rem 2rem 1.5rem 2rem;
   max-height: 40rem;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 #header .content .inner > :last-child {
@@ -1834,7 +1836,7 @@ body.is-preload #header .content .inner {
   width: 100%;
   max-width: 100%;
   height: 1vh;
-  margin-top: 0.7rem;
+  margin-top: 0.9rem;
   text-align: center;
 }
 
