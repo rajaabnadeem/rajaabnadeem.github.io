@@ -1348,7 +1348,7 @@ button {
       rgba(19, 21, 25, 0.5),
       rgba(19, 21, 25, 0.5)
     ),
-    url("../../images/bg.jpg");
+    url("../../images/background.jpg");
   background-size: cover;
   background-position: center, center;
   background-repeat: no-repeat, repeat;
@@ -1775,6 +1775,7 @@ body.is-preload #header .content .inner {
   -ms-transform: translateY(0);
   transform: translateY(0);
   opacity: 1;
+  padding-bottom: 5%
 }
 
 #main article .close {
