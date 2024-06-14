@@ -298,12 +298,14 @@ h3.major,
 h4.major,
 h5.major,
 h6.major {
-  width: -moz-max-content;
+  /* width: -moz-max-content;
   width: -webkit-max-content;
   width: -ms-max-content;
   width: max-content;
-  padding-bottom: 0.5rem;
-  margin: 0 0 0.5rem 0;
+  padding-bottom: 0.5rem; */
+  font-size: 1.25rem;
+  margin: -1rem 0 -0.75rem 0;
+  text-align: center;
 }
 
 h1 {
@@ -441,6 +443,11 @@ hr {
 
 .project-list {
   list-style-type: circle;
+  margin-top: 1rem;
+}
+
+.project-list-nct {
+  margin-top: 1.25rem
 }
 
 .me-img {
@@ -454,7 +461,7 @@ hr {
 }
 
 .me-title {
-  font-size: 9pt;
+  font-size: 12pt;
   margin-top: -1.5vh;
 }
 
@@ -466,20 +473,28 @@ hr {
 .inner {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .dash-para {
+  display: flex;
   background-color: rgba(30, 30, 30, 0.7);
-  width: 950px;
+  width: 100%;
   padding: 12px 20px 12px 20px;
   border: 1px solid white;
   height: 200px;
   overflow: scroll;
 }
 
+.email {
+  overflow:auto;
+  font-size: 24pt;
+  margin-top: 1rem;
+}
+
 .tele {
   font-size: 24pt;
-  margin-bottom: 20px;
+  margin-bottom: 0.5rem;
 }
 
 .dashlist {
@@ -1299,7 +1314,7 @@ button {
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
-  -webkit-backface-visibility: hidden;
+  /* -webkit-backface-visibility: hidden; */
   position: fixed;
   top: 0;
   left: 0;
@@ -1745,7 +1760,7 @@ body.is-preload #header .content .inner {
     -webkit-transform 0.325s ease-in-out;
   -ms-transition: opacity 0.325s ease-in-out, -ms-transform 0.325s ease-in-out;
   transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;
-  padding: 4.5rem 2.5rem 1.5rem 2.5rem;
+  padding: 4rem 2.5rem 0rem 2.5rem;
   position: relative;
   width: 40rem;
   max-width: 100%;
